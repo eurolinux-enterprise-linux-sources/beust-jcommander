@@ -2,7 +2,7 @@
 
 Name:             beust-%{short_name}
 Version:          1.30
-Release:          4%{?dist}
+Release:          5%{?dist}
 Summary:          Java framework for parsing command line parameters
 License:          ASL 2.0
 Group:            Development/Libraries
@@ -41,6 +41,9 @@ chmod -x license.txt
 %doc license.txt notice.md
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 1.30-5
+- Mass rebuild 2013-12-27
+
 * Fri Jun 28 2013 Mikolaj Izdebski <mizdebsk@redhat.com> - 1.30-4
 - Rebuild to regenerate API documentation
 - Resolves: CVE-2013-1571
